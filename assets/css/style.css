@@ -40,7 +40,7 @@
 
 :root {
     --heading-color: #2d2d2d;
-    --primary-color: #fe6600;
+    --primary-color: #D3AC28;
     --primary-color-rgb: 254,102,0;
 }
 
@@ -65,7 +65,7 @@ a:hover,
 a:focus,
 a:visited {
     outline: none;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
     text-decoration: none;
 }
 
@@ -147,7 +147,7 @@ footer:after {
 }
 
 .section-title h2 span {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 /** Button style */
@@ -161,7 +161,7 @@ a.theme-btn {
     transition: 0.5s;
     padding: 20px 41px;
     border-radius: 15px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
     display: inline-block;
 }
 
@@ -199,7 +199,7 @@ a.theme-btn {
 }
 
 .social-style-one a:hover i {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .social-style-one a:first-child {
@@ -339,7 +339,7 @@ input[type="submit"]:focus {
 }
 
 .bg-orange {
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 .bg-black {
@@ -372,7 +372,7 @@ input[type="submit"]:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.8px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .hero-inner h1 {
@@ -387,7 +387,7 @@ input[type="submit"]:focus {
 
 .hero-inner h1 span:after {
     content: '.';
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .hero-btn a {
@@ -455,7 +455,7 @@ input[type="submit"]:focus {
     font-size: 13px;
     padding-left: 17px;
     padding-right: 17px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
     font-family: "Font Awesome 5 Free";
 }
 
@@ -527,7 +527,7 @@ input[type="submit"]:focus {
     height: 192px;
     border-radius: 50%;
     z-index: -1;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 .about-image:after {
@@ -632,7 +632,7 @@ input[type="submit"]:focus {
     bottom: 0;
     width: 265px;
     height: 265px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
     clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
 
@@ -658,13 +658,13 @@ input[type="submit"]:focus {
     line-height: 65px;
     text-align: center;
     background: #f9f9f9;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .service-item:hover .service-icon a {
     color: #fff;
     border-radius: 15px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 .service-content h4 {
@@ -678,7 +678,7 @@ input[type="submit"]:focus {
 }
 
 .service-content h4 a:hover {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .service-content p {
@@ -691,7 +691,7 @@ input[type="submit"]:focus {
     height: 5px;
     margin-left: 15px;
     margin-bottom: 40px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 
@@ -718,7 +718,7 @@ input[type="submit"]:focus {
     line-height: 65px;
     cursor: pointer;
     text-align: center;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
     position: absolute;
     top: 10%;
     left: 0;
@@ -736,7 +736,7 @@ input[type="submit"]:focus {
 .partner-wrap .partner-prev:focus,
 .partner-wrap .partner-next:focus {
     color: #ffffff;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 .partners-section .slick-list {
@@ -773,7 +773,7 @@ input[type="submit"]:focus {
     left: 0;
     width: 265px;
     height: 265px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
     clip-path: polygon(100% 0, 0 100%, 0 0);
 }
 
@@ -814,7 +814,7 @@ input[type="submit"]:focus {
     bottom: 0;
     width: 0px;
     height: 0px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
     clip-path: polygon(100% 100%, 0 100%, 0 0);
     -webkit-transition: .5s;
     transition: .5s;
@@ -850,7 +850,7 @@ input[type="submit"]:focus {
 }
 
 .case-content span {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -869,7 +869,7 @@ input[type="submit"]:focus {
     line-height: 65px;
     cursor: pointer;
     text-align: center;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
     position: absolute;
     left: 43%;
     bottom: 17px;
@@ -929,7 +929,7 @@ input[type="submit"]:focus {
     bottom: 0;
     width: 100%;
     height: 0;
-    background: linear-gradient(transparent, #fe6600);
+    background: linear-gradient(transparent, #D3AC28);
     -webkit-transition: 0.7s;
     transition: 0.7s;
 }
@@ -954,7 +954,7 @@ input[type="submit"]:focus {
 }
 
 .team-item .team-desc p {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 
@@ -975,7 +975,7 @@ input[type="submit"]:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
     opacity: .9;
 }
 
@@ -1156,7 +1156,7 @@ input[type="submit"]:focus {
     position: absolute;
     top: -34px;
     left: 0;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .textimonial-content p:after {
@@ -1166,7 +1166,7 @@ input[type="submit"]:focus {
     position: absolute;
     right: 15%;
     bottom: -45px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .textimonial-content .reviewer {
@@ -1178,7 +1178,7 @@ input[type="submit"]:focus {
 }
 
 .textimonial-content .reviewer span {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 
@@ -1209,11 +1209,11 @@ input[type="submit"]:focus {
 }
 
 .cta-section.bg-snow h3 span {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .cta-section.bg-snow .theme-btn {
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
     padding: 20px 57px;
 }
 
@@ -1334,7 +1334,7 @@ input[type="submit"]:focus {
     border-right: 0;
     margin-top: 42px;
     padding: 25px 0 25px 40px;
-    border-left: 6px solid var(--primary-color, #fe6600);
+    border-left: 6px solid var(--primary-color, #D3AC28);
 }
 
 .vission-tab-content .success-item .icon-image {
@@ -1356,7 +1356,7 @@ input[type="submit"]:focus {
     position: absolute;
     top: 0;
     right: -10px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .vission-tab-content .success-content h5 {
@@ -1403,7 +1403,7 @@ input[type="submit"]:focus {
     height: 95px;
     line-height: 95px;
     text-align: center;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 .service-details-content h3 {
@@ -1592,7 +1592,7 @@ input[type="submit"]:focus {
 .service-sidebar .contact-widget p {
     font-weight: 700;
     margin-bottom: 26px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .service-sidebar .contact-widget h3 {
@@ -1749,7 +1749,7 @@ input[type="submit"]:focus {
 }
 
 .case-sidebar .sidebar-widget h3 span {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .case-sidebar .information-widget {
@@ -1784,7 +1784,7 @@ input[type="submit"]:focus {
 }
 
 .information-widget li a {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .case-sidebar .contact-widget {
@@ -1794,7 +1794,7 @@ input[type="submit"]:focus {
 .case-sidebar .contact-widget p {
     font-weight: 700;
     margin-bottom: 26px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .case-sidebar .contact-widget h3 {
@@ -1878,7 +1878,7 @@ input[type="submit"]:focus {
 .contact-sidebar .sidebar-widget li .left-icon i {
     font-size: 19px;
     margin-right: 31px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .contact-sidebar .sidebar-widget.bg-black h3,
@@ -1906,7 +1906,7 @@ input[type="submit"]:focus {
 .get-in-touch .call-back-form input:focus,
 .get-in-touch .call-back-form textarea:focus {
     box-shadow: none;
-    border-color: var(--primary-color, #fe6600);
+    border-color: var(--primary-color, #D3AC28);
 }
 
 .get-in-touch .call-back-form textarea {
@@ -2005,7 +2005,7 @@ input[type="submit"]:focus {
 
 .contact-info-widget h5 {
     margin-bottom: 15px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .contact-info-widget p {
@@ -2029,7 +2029,7 @@ input[type="submit"]:focus {
 
 .recent-post-widget .post-item p {
     margin-bottom: 20px;
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .recent-post-widget ul > li:last-child .post-item p {
@@ -2082,7 +2082,7 @@ input[type="submit"]:focus {
     line-height: 48px;
     transition: 0.5s;
     border-radius: 15px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 .widget .social-style-two a {
@@ -2116,7 +2116,7 @@ input[type="submit"]:focus {
 }
 
 .copyright-inner p span {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 .copyright-wrap {
@@ -2152,7 +2152,7 @@ input[type="submit"]:focus {
 }
 
 .footer-menu li a:hover {
-    color: var(--primary-color, #fe6600);
+    color: var(--primary-color, #D3AC28);
 }
 
 /*** Scroll Top style ***/
@@ -2163,7 +2163,7 @@ input[type="submit"]:focus {
     cursor: pointer;
     margin-left: auto;
     border-radius: 15px;
-    background: var(--primary-color, #fe6600);
+    background: var(--primary-color, #D3AC28);
 }
 
 
