@@ -295,7 +295,7 @@ a.theme-btn {
     color: #FFFFFF;
     border-radius: 15px;
     margin-bottom: 20px;
-    background: #FF8431;
+    background: #D3AC28;
 }
 
 .form-group input::placeholder,
@@ -307,7 +307,7 @@ a.theme-btn {
 .form-group textarea:focus {
     color: #FFFFFF;
     box-shadow: none;
-    background: #FF8431;
+    background: #D3AC28;
 }
 
 /* input buttons */
@@ -357,8 +357,9 @@ input[type="submit"]:focus {
     height: 1000px;
     margin-top: 50px;
     background: url(../images/hero/hero-bg.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
 }
@@ -472,7 +473,7 @@ input[type="submit"]:focus {
 .success-item {
     display: flex;
     padding-left: 16px;
-    border-right: 1px solid #FF8432;
+    border-right: 1px solid #D3AC28;
 }
 
 .success-wrap .row > div:last-child .success-item {
@@ -621,7 +622,7 @@ input[type="submit"]:focus {
     bottom: 0;
     width: 300px;
     height: 300px;
-    background: rgba(254, 102, 0, .15);
+    background: rgba(211, 171, 40, 0.15);
     clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
 
@@ -746,6 +747,9 @@ input[type="submit"]:focus {
 .partners-section .partner-item {
     padding-top: 25px;
 }
+.partner-item img {
+    width: 100px;
+}
 
 
 /****************************************************** */
@@ -762,7 +766,7 @@ input[type="submit"]:focus {
     left: 0;
     width: 300px;
     height: 300px;
-    background: rgba(254, 102, 0, .15);
+    background: rgba(211, 171, 40, 0.15);
     clip-path: polygon(100% 0, 0 100%, 0 0);
 }
 
